@@ -17,7 +17,11 @@ class ViewRestaurantes{
         echo '<section id="tabela">';
         echo    '<table id="tabela" border="1px">';
         echo        '<tr>';
+<<<<<<< HEAD
         echo            '<td>Código</td>';
+=======
+        echo            '<td>CÃ³digo</td>';
+>>>>>>> 0a08d6d04a427b70da83e3a0a34eccc265410577
         echo            '<td>Nome</td>';
         echo            '<td>CNPJ</td>';
         echo            '<td>Email</td>';
@@ -124,7 +128,11 @@ class ViewRestaurantes{
         echo '<a id="voltar" href="index.php?pagina=restaurante">Voltar</a>';
         echo '</div>';
         echo '<section id="nova-senha">';
+<<<<<<< HEAD
         echo '<h2>Cadastro de Nova senha, Restaurante nº: '.$_GET['alteraSenha'].'</h2>';
+=======
+        echo '<h2>Cadastro de Nova senha, Restaurante nÂº: '.$_GET['alteraSenha'].'</h2>';
+>>>>>>> 0a08d6d04a427b70da83e3a0a34eccc265410577
         echo    '<form action = "index.php?pagina=restaurante&alteraSenha='.$_GET['alteraSenha'].' " method="POST" >';
         echo        "<label for='nome'>Nova senha:<span>*</span></label>";
         echo        "<input type = 'password' name = 'senha' required='required'/>";
@@ -146,7 +154,11 @@ class ViewRestaurantes{
         echo '<a id="voltar" href="index.php?pagina=restaurante">Voltar</a>';
         echo '</div>';
         echo '<section id="altera-cadastro">';
+<<<<<<< HEAD
         echo '<h2>Alteração de cadastro Restaurante nº: '.$_GET['alteraCadastro'].'</h2>';
+=======
+        echo '<h2>AlteraÃ§Ã£o de cadastro Restaurante nÂº: '.$_GET['alteraCadastro'].'</h2>';
+>>>>>>> 0a08d6d04a427b70da83e3a0a34eccc265410577
         echo    '<form action = "index.php?pagina=restaurante&alteraCadastro='.$_GET['alteraCadastro'].' " method="POST" >';
         echo        "<label for='nome'>Nome:<span>*</span></label>";
         echo        "<input type = 'text' name = 'nome' required='required'/>";
@@ -194,5 +206,9 @@ class ViewRestaurantes{
         echo    '<hr>'; 
     }
 
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> 0a08d6d04a427b70da83e3a0a34eccc265410577
